@@ -13,15 +13,16 @@ body {
   border-radius: 5px;
   background: #fd6e0a;
   border: 0;
+  padding: 18px 35px;
+  cursor: pointer;
 }
 .section-title {
   color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  
+  margin: 30px;
 }
-
 
 .section-description {
   color: #757575;
@@ -56,10 +57,6 @@ nav li {
 }
 nav a {
   text-decoration: none;
-}
-
-.nav-btn {
-  padding: 18px 35px;
 }
 
 /* banner styles */
@@ -161,8 +158,8 @@ main {
 
 /* My resume related styles */
 .resume-btn {
-   display: flex; 
-   justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .my-resume {
@@ -172,12 +169,11 @@ main {
   gap: 70px;
   margin-top: 110px;
 }
-.resume-title{
+.resume-title {
   color: #474747;
-font-size: 30px;
-font-weight: 700;
-margin-left: 10px;
-
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
 }
 
 .resume-description {
@@ -196,4 +192,42 @@ margin-left: 10px;
 .resume-institute {
   color: #757575;
   font-size: 20px;
+}
+
+/* Footer related styles */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  background: #fff8f3;
+  padding: 130px 230px;
+  gap: 100px;
+  margin-top: 110px;
+}
+.footer-column {
+  width: 50%;
+}
+.footer-column  .section-title{
+    text-align: left;
+    margin-left: 0;
+}
+
+.contact input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 10px;
+  border: 0;
+}
+
+.footer-icon a {
+  padding-right: 24px;
+}
+.footer-description {
+  margin-bottom: 30px;
+  color: #474747;
+   font-size: 16px;
+  font-weight: 400;
 }
