@@ -60,7 +60,7 @@ nav a {
   padding: 18px 35px;
 }
 
-                      /* banner styles */
+/* banner styles */
 
 .header {
   background: #fff8f3;
@@ -105,7 +105,7 @@ nav a {
   max-width: 500px;
 }
 
-                      /* main section style */
+/* main section style */
 
 main {
   max-width: 1140px;
@@ -123,17 +123,36 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
-.about-info{
+.about-info {
   text-align: center;
 }
 .info-title {
   color: #757575;
 }
 .info-description {
-  
   font-size: 20px;
   font-weight: bold;
+}
 
+/* What i do section */
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+ 
+}
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.skill-title {
+  margin: 10px 0;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
 }
