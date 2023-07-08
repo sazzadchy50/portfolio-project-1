@@ -19,7 +19,9 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+  
 }
+
 
 .section-description {
   color: #757575;
@@ -142,7 +144,7 @@ main {
   justify-content: space-around;
   align-items: center;
   gap: 24px;
- 
+  margin-bottom: 130px;
 }
 .skill {
   border-radius: 5px;
@@ -155,4 +157,43 @@ main {
   color: #181818;
   font-size: 20px;
   font-weight: 700;
+}
+
+/* My resume related styles */
+.resume-btn {
+   display: flex; 
+   justify-content: space-around;
+}
+
+.my-resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  margin-top: 110px;
+}
+.resume-title{
+  color: #474747;
+font-size: 30px;
+font-weight: 700;
+margin-left: 10px;
+
+}
+
+.resume-description {
+  padding: 20px 0px 30px 0px;
+}
+.resume-item {
+  padding: 10px;
+}
+
+.resume-item-title {
+  margin: 30px 0 10px 0;
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-institute {
+  color: #757575;
+  font-size: 20px;
 }
