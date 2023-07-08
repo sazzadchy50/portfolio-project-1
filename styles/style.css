@@ -7,14 +7,27 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .primary-btn {
-  color:  #fff;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
   border-radius: 5px;
-  background: #FD6E0A;
+  background: #fd6e0a;
   border: 0;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
 
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px 0;
+}
 /*  Navbar style */
 .nav-logo {
   color: #181818;
@@ -25,19 +38,14 @@ body {
 .logo-item {
   color: #fd6e0a;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 250px;
-  
-
-   
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 250px;
 }
-nav > ul{
+nav > ul {
   display: flex;
   align-items: center;
-  
-  
 }
 nav li {
   list-style: none;
@@ -48,58 +56,84 @@ nav a {
   text-decoration: none;
 }
 
-.nav-btn{
-    padding: 18px 35px;
+.nav-btn {
+  padding: 18px 35px;
 }
 
+                      /* banner styles */
 
-/* banner styles */
-
-.header{
-  background: #FFF8F3;
-  background-image: url('../images/header_bg.png'), url('../images/developer.png');
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
-
-  
 }
-.banner{
+.banner {
   padding: 30px 30px 0px 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-    
-  
 }
-.banner-content{
+.banner-content {
   max-width: 550px;
 }
-.banner-greeting{
+.banner-greeting {
   font-size: 45px;
   color: #474747;
   font-weight: 700;
 }
-.banner-title{
-  color:  #181818;
+.banner-title {
+  color: #181818;
   font-size: 85px;
   font-weight: 700;
-
 }
-.banner-description{
+.banner-description {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
-  
+
   margin: 10px 0;
 }
-.banner-btn{
+.banner-btn {
   padding: 18px 50px;
-
 }
-.banner-btn i{
+.banner-btn i {
   margin-right: 5px;
 }
-.banner-image{
+.banner-image {
   max-width: 500px;
+}
+
+                      /* main section style */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about {
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+  padding: 130px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   
+}
+.about-info{
+  text-align: center;
+}
+.info-title {
+  color: #757575;
+}
+.info-description {
+  
+  font-size: 20px;
+  font-weight: bold;
+
 }
