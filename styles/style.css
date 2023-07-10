@@ -67,12 +67,14 @@ nav a {
     url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
+  height: 100vh;
 }
 .banner {
   padding: 30px 30px 0px 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100vh;
 }
 .banner-content {
   max-width: 550px;
